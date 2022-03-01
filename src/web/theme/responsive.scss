@@ -1,0 +1,269 @@
+@media only screen and (max-height: 510px){
+}
+@media only screen and (min-height: 600px) {
+}
+@media only screen and (min-height: 700px) {
+}
+@media(max-width:1366px){
+	.wishBoxImg{padding-left: 192px;padding-top:23px;}
+	.wishBoxImg img{height: 100px;}
+}
+@media(max-width:1250px){
+	 ul.customPagination li:first-child > a, ul.customPagination li:last-child > a{width: 57px;}
+	 ul.customPagination li a{width: 47px;}
+	 .leftQuestion{padding-right:0px;}
+	 .wishBox h3 span{display:block;}
+	 .AvgPerformance{right: 24px;top: 13px;width: 99px;background: #ed6363;padding: 10px;border-radius:10px;}
+	 .AvgPerformance span{font-size:30px;line-height:32px;}
+}
+@media(max-width:1200px){
+	.exportDataOuter {
+	    width: 100%;
+	    margin-top: 50px;
+	}
+}
+@media (min-width:991px) and (max-width:1200px){
+}
+@media(max-width:1150px){
+	.searchBox{width:285px;}
+	.selectYear, .selectForm{width:120px;}
+	.formRow.subjectRow div.subjectGroupOuter div.subjectGroup div .subjectname{font-size: 15px;}
+	.formRow.subjectRow div.subjectGroupOuter div.subjectGroup div .subjectstudent { font-size: 13px;}
+	.formRow.subjectRow div.subjectTop div .subjectname {font-size: 17px;}
+	.formRow.subjectRow div.subjectTop div .subjectstudent {font-size: 14px;}
+	.importSubjectCSV{
+		label{font-size:14px!important;}
+		img{height:12px;}
+		svg{font-size:16px;}
+	}
+	.formRow.subjectRow .subjectCreateGroup .hyperLink{font-size:14px;}
+	.pageTitle{font-size: 30px;}
+	.titleInfo{font-size:14px;}
+	.yourType a{margin-right:12px;}
+
+}
+@media(min-width:768px) and (max-width:1150px){
+}
+@media(min-width:1050px){
+.maximizeSection{display:none;}
+.minimizeSection{display:none}
+}
+@media(max-width:1050px){
+.leftNevbar ul.customNav li a img {
+	position: static;
+}
+.leftNevbar{
+width:90px;
+.leftLogo.large-logo{display:none}
+.leftLogo.small-logo{display:block;}
+.maximizeSection{display:flex;}
+.minimizeSection{display:none}
+ul.customNav li a span{display:none;}
+ul.customNav li a{padding:10px;}
+ul.customNav li a img{left:13px;}
+.userSection i, .userSection svg{display:none;}
+
+	&.hide{
+		width:0px;
+		padding:0;
+		.leftLogo.large-logo{display:block;}
+		.leftLogo.small-logo{display:none;}
+		ul.customNav li a{padding:10px 10px 10px 50px;}
+		ul.customNav li a span{display:block;}
+		.userSection i, .userSection svg{display:block;}
+	}
+	&.show{
+		width:291px;
+		padding:15px 20px;
+		.leftLogo.large-logo{display:block;}
+		.leftLogo.small-logo{display:none;}
+		ul.customNav li a{padding:10px 10px 10px 50px;}
+		ul.customNav li a span{display:block;}
+		.userSection i, .userSection svg{display:block;}
+	}
+
+}
+.main{padding-left:0px;}
+.pageTitle{font-size:30px;}
+.topButton, .topLineButton{height:38px;font-size:14px;}
+.topLineButton i, .topLineButton svg, .topLineButton img{font-size: 15px;}
+.titleInfo{font-size:14px;}
+.customField .fieldSelect, .customField .fieldInput{height:45px;}
+.customField > .arrow{top:10px!important;}
+.customDropdown{top:50px;}
+.studentClass span{font-size:24px;}
+.studentClass h1{font-size:40px;}
+.studentClass p{font-size:16px;}
+.leftNevbar ul.customNav{margin-top:20px;}
+.leftNevbar ul.customNav li{margin-bottom:10px;}
+.minimizeSection{display:none;}
+.assignBtn i{
+	top: 8px;
+}
+}
+@media (min-width:768px) and (max-width:991px){
+}
+@media only screen and (min-width:991px){
+}
+@media(max-width:991px){
+	.exportDataOuter{
+		width:100%;margin-top:50px;
+		.dateTrem{float: left;margin-top: -30px;margin-bottom: 30px;}
+	}
+	.topFilters{margin-bottom:20px;}
+	.topFilters .searchBox{width:100%;margin-bottom:10px;}
+	.topFilters .selectYear, .topFilters .selectForm{margin-left:0px;margin-right:10px;margin-bottom:10px;}
+	.yourType a{width: 70px;height: 70px;font-size:14px;}
+	.loginForm{ padding-top: 21px;}
+	.lessonCardRow .lessonCardRight a {
+	    padding: 7px 0px;
+	    border-right: none;
+	    display: block;
+	    height: auto;
+	    line-height: 15px;
+	}
+	.topIcons{
+		margin-bottom:20px;
+	}
+	.RespirationTabs {
+		float: left;
+		margin: 20px 0px 40px;
+		width: 100%;
+	}
+	.notifyIcon{margin-top:0px;position:absolute;right:20px;top:20px;}
+	.scheduleLessonBtn span{display:none;}
+	.scheduleLessonBtn svg, .scheduleLessonBtn i, .scheduleLessonBtn img{margin-right:0px;}
+	.topButton{padding:0px 20px;}
+	.pageTitle span {max-height: inherit;}
+	.creditScore{margin-top: -30px;}
+}
+@media only screen and (min-width:767px) {
+}
+@media(max-width:767px){
+.loginLogo{top:27px;left:27px;}
+.GuestOuter{padding-top:150px;}
+.loginImgLeft{display:none;}
+.loginForm {padding:20px 30px;}
+.section{padding: 50px 20px;}
+.topButton{float: none!important;margin: 10px 0px;}
+.exportDataOuter{
+	margin-top:5px;
+	.dateTrem {
+    float: left;
+    margin-top: 16px;
+    margin-bottom: 20px;
+	}
+}
+.customeTabs{display:block;}
+.customeTabs li {display: block;margin-right: 0px;margin-bottom: 35px;}
+.customeTabs li a.active:after, .customeTabs li a:hover:after{bottom:-12px;}
+.titleInfo{max-width:100%;}
+.topFilters .selectYear, .topFilters .selectForm{margin-left:0px;margin-right:0px;margin-bottom:10px;width:100%;}
+.importCSV{float:none;}
+.importSubjectCSV label{display:none;}
+.formRow.subjectRow i{margin-left:-4px!important;display:flex!important;}
+.subjectGroupOuter{margin-top:20px;}
+.formRow.subjectRow div.subjectTop .importSubjectCSV{height:30px;}
+.formRow.subjectRow div.subjectGroupOuter div.subjectGroup div .subjectstudent{display:block;border:none;}
+.formRow.subjectRow div.subjectTop div .subjectstudent, .formRow.subjectRow div.subjectTop div .subjectname{display:block;border:none;}
+.fullTable{
+	thead th:first-child{padding-left:20px;}
+	thead th:last-child{padding-right:20px;}
+	tbody td:first-child{padding-left:20px;}
+	tbody td:last-child{padding-right:20px;}
+}
+.add-studen-img{
+	display:none;
+}
+.studentQuestionOuter{display:block;}
+.studentQuestionOuter .crossCheckAnswerOuter{padding-left:0px;margin-top:20px;}
+.scheduleFor{margin-top:0px;margin-bottom:20px;}
+.lessonCardRow{display:block;}
+.lessonCardRow .lessonCardRight{margin-top: 13px;float: none;}
+.lessonCardRow .lessonCardRight .lessonGroupTag{font-size: 14px;padding: 5px 10px;margin-right: 10px;min-width: 90px;}
+.scheduleDate{font-size:14px;}
+.questionOuter{padding:20px;}
+.dragDot{left:-4px;}
+.totalMarks{position:static;margin-top: 20px;text-align: left;}
+.singleMarks{position:static;margin-top:0px;text-align: left;padding:0px 20px;}
+}
+@media(max-width:600px){
+}
+@media (min-width:480px) and (max-width:767px){
+}
+@media(max-width:530px){
+.popupWrapper{width:90%!important;}
+.cross{font-size:20px;}
+.popupOverlay .popupWrapper .popupTitle{font-size:24px;}
+.popupOverlay .popupWrapper .popupSubTitle{font-size:14px;}
+.lineBtn, .blueBtn{margin:5px 0px!important;width:100%;font-size:14px;}
+.popupOverlay .popupWrapper{padding:50px 20px;max-height: 600px;overflow: auto;}
+.customField .fieldSelect, .customField .fieldInput{font-size:14px;}
+.goBack.backToClass{margin-top:-10px;}
+.pageTitle span{display:block;border:none!important;padding:0px!important;}
+.pageTitle .importCSV{float:right;}
+.titleInfo{margin-top:30px;}
+.loginFooter{position:relative;}
+ul.loginTabs{margin-top:-35px;}
+.onlineStudent{margin-top: 43px;}
+
+.tProfileSection{margin-top:50px;}
+.sharedLink > span{display:flex;}
+.sharedLink{float: none;margin-bottom:14px;margin-top:19px;justify-content:left;}
+.customAccordion{margin:0px;}
+.videoTitle, .videoTitle span, .videoTitle label, .videoTitle p{display:block;padding:2px 0px;}
+ .videoTitle label{border:none;height: auto;line-height: inherit;}
+ .objective{display:block;}
+ .objective li{margin-bottom:15px;}
+ .wishBoxImg{padding:23px 30px;}
+ .wishBoxImg img{left:initial;right:0px;}
+ .customeTabs.RespirationTabs{margin-bottom:10px;}
+ .customeTabs.RespirationTabs li{margin-bottom: 20px;}
+ .customeTabs.RespirationTabs li:last-child{margin-bottom: 20px;}
+ .studentAnswerRow label .questionInfo .infoBox{left:-76px;top:25px;}
+ .wishBox{padding:23px 23px;}
+ .templateMain{width:280px;}
+ .wishBox.migration{
+ 	height: auto;
+ 	padding: 30px 20px 30px 56px;
+ }
+ .wishBox.migration .migrateBtn, .wishBox.migration .migrateDate{position: static;margin-top:20px;display:block;}
+ .rightAttachment {
+    position: absolute;
+    right: 20px;
+    top: 64px;
+}	
+.popupOverlay .popupWrapper .popupSubTitle{max-width:100%;}
+.popuptableOuter {
+    width: auto;
+    margin: 0px -15px;
+}
+.creditScore{
+	margin-right: 50px;
+}
+.lessonCardRow .lessonCardRight{
+	display:block;
+	text-align:left;
+}
+.studentWishBox img{display:none;}
+.homeworkTitleTag{margin-left:0px;}
+.homeworkTitleTag:after{display:none;}
+.submitHomework{height:auto;display:table;width:100%;}
+.submitHomeIcon{margin:10px 0px;}
+.timeslotRowOuter .timeslotRow .timeslotType{width: 46%;}
+.timeslotRowOuter .timeslotRow .timeslotFrom{width: 25%;}
+.timeslotRowOuter .timeslotRow .timeslotTo{width: 25%;}
+.CSVImporting{padding:14px 15px;display:block;}
+.CSVImporting .importingLeft{padding-bottom:5px;}
+.CSVImporting .importingCenter{width: 85%;display: inline-block;}
+.importingRight{display: inline-block;width: 12%;}
+.CSVImporting .importingRight span{    font-size: 17px;padding-left:0px;margin-right: 0px;}
+}
+@media(max-width:480px){
+	.customField.searchBox{width:100%;}
+	.searchBox i, .searchBox svg{top: 14px;font-size: 15px;}
+	.searchBox input {padding-left: 40px !important;}
+	.table thead {font-size: 13px;}
+	.table tbody {font-size: 14px;}
+	.topLineButton, .topButton{margin:10px 0px 0px;width:100%;}
+}

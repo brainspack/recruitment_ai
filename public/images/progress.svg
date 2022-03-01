@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="13" viewBox="0 0 13 13">
+    <defs>
+        <filter id="z4mwvpvteb">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.992157 0 0 0 0 0.564706 0 0 0 0 0.384314 0 0 0 1.000000 0"/>
+        </filter>
+        <circle id="pycxvkm44a" cx="6.5" cy="6.5" r="6.5"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g transform="translate(-381 -341) translate(347 306) translate(24 25) translate(10 10)">
+                        <mask id="6blm6bq2nc" fill="#fff">
+                            <use xlink:href="#pycxvkm44a"/>
+                        </mask>
+                        <use fill="#FFF" xlink:href="#pycxvkm44a"/>
+                        <g filter="url(#z4mwvpvteb)">
+                            <g mask="url(#6blm6bq2nc)">
+                                <g fill="#D8D8D8" stroke="#979797" transform="translate(2.5 5.5)">
+                                    <circle cx="1" cy="1" r="1"/>
+                                    <circle cx="4" cy="1" r="1"/>
+                                    <circle cx="7" cy="1" r="1"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
